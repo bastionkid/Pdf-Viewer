@@ -91,12 +91,12 @@ mavenPublishing {
     publishToMavenCentral(SonatypeHost.CENTRAL_PORTAL)
     signAllPublications()
 
-    coordinates("io.github.afreakyelf", "Pdf-Viewer", "2.1.1")
+    coordinates("io.github.bastionkid", "Pdf-Viewer", "2.1.2")
 
     pom {
         name.set("PDF Viewer")
         description.set("A PDF viewing library for Android")
-        url.set("https://github.com/afreakyelf/pdfviewer")
+        url.set("https://github.com/bastionkid/Pdf-Viewer")
         licenses {
             license {
                 name.set("MIT License")
@@ -105,15 +105,15 @@ mavenPublishing {
         }
         developers {
             developer {
-                id.set("afreakyelf")
-                name.set("Rajat Mittal")
-                email.set("rjmittal07@gmail.com")
+                id.set("bastionkid")
+                name.set("Akash Khunt")
+                email.set("akash.mercer@gmail.com")
             }
         }
         scm {
-            connection.set("scm:git:git://github.com/afreakyelf/pdfviewer.git")
-            developerConnection.set("scm:git:ssh://github.com/afreakyelf/pdfviewer.git")
-            url.set("https://github.com/afreakyelf/pdfviewer")
+            connection.set("scm:git:git://github.com/bastionkid/Pdf-Viewer.git")
+            developerConnection.set("scm:git:ssh://github.com/bastionkid/Pdf-Viewer.git")
+            url.set("https://github.com/bastionkid/Pdf-Viewer")
         }
     }
 
